@@ -178,5 +178,41 @@
 /* #endregion main */
 
 /* #region footer */
+#site_footer{
+    background-color: var(--footer);
+    color: white;
+}
+
+.social{
+    text-align: end;
+}
+
+.azienda{
+    margin-top: 2rem;
+    padding: 3px;
+    font-size: 20px;
+}
+
+.info{
+    margin-top: 5px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+}
+
+footer h5{
+    padding-top: 2rem;
+    padding-right: 1rem;
+    font-size: 16px;
+}
+
+.social_icon i{
+    margin-top: 5px;
+    padding: 2px;
+    font-size: 20px;
+}
 
 /* #endregion footer */
