@@ -147,6 +147,10 @@ i:hover{
 #site_header{
     background-color: var(--nav);
     box-shadow: 0 0 10px black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .gender{
@@ -182,8 +186,9 @@ i:hover{
 
 /* #region main */
 
-.top{
-    margin-top: 3rem;
+.top_{
+    padding-top: 7rem;
+    padding-bottom: 3rem;
 }
 
 .left, .middle, .right{
@@ -228,6 +233,7 @@ i:hover{
 .new_price{
     color: var(--sconto);
     font-weight: bold;
+    margin-bottom: 30px;
 }
 
 .original_price{
