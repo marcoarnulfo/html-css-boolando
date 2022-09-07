@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Inter', sans-serif;
+}
+
 /* #region utilities */
 
 :root{
@@ -22,6 +26,7 @@
 
 .row{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .gap{
@@ -45,7 +50,7 @@
 }
 
 .col_4{
-    width: calc( (100% / 12) * 4);
+    width: calc( (100% / 12) * 4 - 20px);
 }
 
 .col_5{
@@ -84,6 +89,60 @@
 
 /* #endregion utilities */
 
+/* #region funzionalità */
+
+.first:hover{
+    content: url("../img/1b.webp");
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+}
+
+.second:hover{
+    content: url("../img/2b.webp");
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+}
+
+.third:hover{
+    content: url("../img/3b.webp");
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+}
+
+.fourth:hover{
+    content: url("../img/4b.webp");
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+}
+
+.fifth:hover{
+    content: url("../img/5b.webp");
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+}
+
+.sixth:hover{
+    content: url("../img/6b.webp");
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+}
+
+.scheda:hover .heart{
+    color: red;
+}
+
+a:hover{
+    text-shadow: 0 0 10px whitesmoke;
+}
+
+i:hover{
+    text-shadow: 0 0 10px whitesmoke;
+    cursor: pointer;
+}
+
+/* #endregion funzionalità */
+
+
 /* #region header */
 #site_header{
     background-color: var(--nav);
@@ -111,7 +170,13 @@
 }
 
 .icons{
+    padding: 1.2rem;
     text-align: end;
+}
+
+.icons i{
+    padding: 3px;
+    color: white;
 }
 /* #endregion header */
 
@@ -181,6 +246,7 @@
 #site_footer{
     background-color: var(--footer);
     color: white;
+    height: 140px;
 }
 
 .social{
@@ -206,7 +272,13 @@ footer a{
 footer h5{
     padding-top: 2rem;
     padding-right: 1rem;
-    font-size: 16px;
+    font-size: 14px;
+    margin-right: 17px;
+    padding-bottom: 2px;
+}
+
+.social_icon{
+    margin-right: 20px;
 }
 
 .social_icon i{
