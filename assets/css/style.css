@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* #region utilities */
+
+:root{
+    --nav: #FF6900;
+    --sconto: #FF0000;
+    --sonsenibilità: #008000;
+    --footer: #1A1A1A;
+}
+
+/* #endregion utilities */
+
+/* #region header */
+
+/* #endregion header */
+
+/* #region main */
+
+/* #endregion main */
+
+/* #region footer */
+
+/* #endregion footer */
